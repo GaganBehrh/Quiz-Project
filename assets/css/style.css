@@ -9,3 +9,21 @@ body{
     padding: 40px;
     color: #ffffff;
 }
+header{
+    text-align: center;
+    
+}
+.content{
+    text-align: center;
+    padding: 20px;
+}
+button{
+    display: block;
+   margin: 0 auto;
+    padding: 10px;
+    background-color: black;
+    color:white;
+    border-radius: 10px;
+    border:2px solid black;
+
+}
