@@ -44,31 +44,32 @@ button {
 }
 
 @media screen and (min-width: 640px) {
-   .container{
-    padding: 40px;
-   }
+
+    .container{
+         margin: 164px -59px 15px -20px;
+    }
     .flex-container {
         display: flex;
     }
 
     img {
-        flex:1;
+        flex: 1;
     }
 
     .content {
-        flex: 0 1 300px;
-      
-
+        padding:40px;
+        flex: 0 1 400px;
     }
+.content h2,h3{
+    padding: 8px;
+}
 }
 
 @media screen and(max-width:1200px) {
     .wrapper {
         margin: auto;
-        max-width: 75rem;
+        max-width: 100rem;
     }
 
-    img {
-        height: 50vh;
-    }
+
 }
