@@ -38,9 +38,15 @@ img {
 .finalpagecontent{
     text-align: center;
     padding: 20px;
+    margin-top: -59px;;
 }
+
+.finalpagecontent h1{
+    
+    padding-top: -20px;
+    }
 .finalpagecontent h2{
-font-size: 40px;
+font-size: 27px;
 padding-top: -20px;
 }
 button {
@@ -108,4 +114,5 @@ button {
     .content h3{
         padding: 8px;
     }
+ 
 }
