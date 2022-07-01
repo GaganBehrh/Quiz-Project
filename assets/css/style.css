@@ -42,14 +42,27 @@ button {
 
 
 }
+@media screen and(max-width:1200px) {
+    .wrapper {
+        
+        display: flex;
+        flex-direction: row;
+    }
+    .container h2{
+        color:red;
+   }
+
+
+}
 
 @media screen and (min-width: 640px) {
-
+/*
     .container{
          margin: 164px -59px 15px -20px;
-    }
+    }*/
     .flex-container {
         display: flex;
+        flex-direction: row;
     }
 
     img {
@@ -65,11 +78,3 @@ button {
 }
 }
 
-@media screen and(max-width:1200px) {
-    .wrapper {
-        margin: auto;
-        max-width: 100rem;
-    }
-
-
-}
