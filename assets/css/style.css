@@ -117,6 +117,7 @@ li {
     img {
         flex: 1;
         height: 94%;
+        width: 92%;
     }
 
     .content {
@@ -138,18 +139,28 @@ li {
    
     .quizContent{
         display: flex;
-        flex-wrap: nowrap;
-        flex-direction: column;
+        align-content: stretch;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
     }
     .questionbutton{
         display: flex;
         flex-wrap: nowrap;
+        flex-direction: column;
+        align-content: stretch;
+        justify-content: flex-start;
+        align-items: center;
+        
     }
     .buttons {
         display: flex;
+        flex-wrap: nowrap;
+        align-content: flex-start;
+        align-items: center;
+        justify-content: space-evenly;
         flex-direction: row;
-        flex-wrap: wrap;
-        align-content: center;
-        justify-content: center;
     }
+   
 }
