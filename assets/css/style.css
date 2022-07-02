@@ -65,6 +65,9 @@ button {
 a{
     text-decoration: none;
 }
+.quizContent{
+    text-align: justify;
+}
 
 @media screen and(max-width:1200px) {
     .wrapper {
