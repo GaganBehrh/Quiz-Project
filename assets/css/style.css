@@ -135,14 +135,21 @@ li {
         padding: 8px;
     }
 
+   
     .quizContent{
         display: flex;
         flex-wrap: nowrap;
         flex-direction: column;
     }
+    .questionbutton{
+        display: flex;
+        flex-wrap: nowrap;
+    }
     .buttons {
         display: flex;
-        flex-direction:column ;
-        flex-wrap: nowrap;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
     }
 }
