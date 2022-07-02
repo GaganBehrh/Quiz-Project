@@ -144,7 +144,6 @@ li {
         align-items: center;
         flex-wrap: wrap;
     }
-    }
     .questionbutton{
         display: flex;
         flex-wrap: nowrap;
@@ -162,5 +161,7 @@ li {
         justify-content: space-evenly;
         flex-direction: row;
     }
-   
+   button{
+    margin-right: 20px;
+   }
 }
