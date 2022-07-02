@@ -59,14 +59,16 @@ button {
     border: 2px solid black;
     text-transform: uppercase;
     letter-spacing: 1px;
-
-
 }
+
+
 a{
     text-decoration: none;
 }
 .quizContent{
-    text-align: justify;
+    text-align: right;
+    padding:20px;
+
 }
 
 @media screen and(max-width:1200px) {
