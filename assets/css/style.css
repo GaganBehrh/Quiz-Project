@@ -65,20 +65,16 @@ a{
     text-decoration: none;
 }
 
-ul{
-    padding: 10px;
-    overflow: hidden;
-}  
+
+input,label{
+    float: left;
+}
+
 li{
     list-style-type:none;
     display: inline;
 }
 
-.quizContent{
-    display: flex;
-    flex-wrap: wrap;
-
-}
 .buttons{
     display: flex;
     flex-wrap: nowrap;
