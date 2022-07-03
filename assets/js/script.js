@@ -45,8 +45,7 @@ const questions = [{
 
 var begin = true;
 function loopthrough(i) {
-    var result = document.getElementsById("result");
-    result[0].innerText = "";
+
     const q = document.getElementById("q");
     q.innerText = questions[i].question;
 
@@ -79,8 +78,9 @@ function loopthrough(i) {
         selectedvalue = answer3.value;
     })
 
-
-    const submitButton = document.getElementById("submitButton");
+    var result = document.getElementsByClassName("result");
+    result[0].innerText = "";
+    const submitButton = document.getElementsByClassName("submitButton");
 
     submitButton[0].addventListener("click", () => {
         if (selectedvalue == "true") {
@@ -95,7 +95,6 @@ function loopthrough(i) {
 if (begin) {
     loopthrough("0");
 }
-  
 
 const nextButton = document.getElementsByClassName('nextButton')[0];
 var j = 0;
@@ -109,7 +108,8 @@ nextButton.addEventListener("click", () => {
     }
   
 })
-
+window.onload = init();
+console.log("Window onload is", window.onload);
 
 
 
