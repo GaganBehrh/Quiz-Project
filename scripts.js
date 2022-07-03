@@ -1,5 +1,5 @@
 const questions = [{
-    id: 0,
+    i: 0,
     question: "What langauage you speak in Germany?",
     answer: [
         { text: "French", isCorrect: false },
@@ -10,7 +10,7 @@ const questions = [{
 
 },
 {
-    id: 1,
+    i: 1,
     question: "What langauage you speak in France?",
     answer: [
         { text: "Spanish", isCorrect: false, isSelected: false },
@@ -21,7 +21,7 @@ const questions = [{
 
 },
 {
-    id: 2,
+    i: 2,
     question: "What is the capital of Germany",
     answer: [
         { text: "Hannover", isCorrect: false },
@@ -32,7 +32,7 @@ const questions = [{
 
 },
 {
-    id:3,
+    i:3,
     question:"What is the capital of France",
     anmswer:[
         {text:"paris", isCorrect:true},
@@ -41,5 +41,18 @@ const questions = [{
 
     ]
 }
-
 ]
+
+function loopthrough(i){
+const q=document.getElementById("q");
+q.innerText=questions[i].question;
+
+const answer1=document.getElementById("ans1");
+const answer2=document.getElementById("ans2");
+const answer3=document.getElementById("ans3");
+
+
+
+}
+
+
