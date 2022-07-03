@@ -53,17 +53,17 @@ function loopthrough(i) {
     const answer1 = document.getElementById("ans1");
     const answer2 = document.getElementById("ans2");
     const answer3 = document.getElementById("ans3");
-    const answer4 = document.getAnimations("ans4");
+   
 
     answer1.innerText = questions[i].answer[0].text;
     answer2.innerText = questions[i].answer[1].text;
     answer3.innerText = questions[i].answer[2].text;
-    answer4.innerText = questions[i].answer[3].text;
+   
 
     answer1.value = questions[i].answer[0].isCorrect;
     answer2.value = questions[i].answer[1].isCorrect;
     answer3.value = questions[i].answer[2].isCorrect;
-    answer4.value = questions[i].answer[3].isCorrect;
+   
 
     var selectedvalue = "";
 
@@ -79,9 +79,6 @@ function loopthrough(i) {
         selectedvalue = answer3.value;
     })
 
-    answer4.addEventListener("click", () => {
-        selectedvalue = answer4.value;
-    })
 
     const submitButton = document.getElementById("submitButton");
 
@@ -104,7 +101,7 @@ const nextButton = document.getElementsByClassName('nextButton')[0];
 var j = 0;
   
 nextButton.addEventListener("click", () => {
-    start = false;
+    begin = false;
     if (j < 3) {
         j++;
         iterate(j);
