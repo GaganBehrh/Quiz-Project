@@ -34,7 +34,7 @@ const questions = [{
 {
     i:3,
     question:"What is the capital of France",
-    anmswer:[
+    answer:[
         {text:"paris", isCorrect:true},
         {text:"Nantes", isCorrect:false},
         {text:"Bordeaux",isCorrect:false},
@@ -50,9 +50,12 @@ q.innerText=questions[i].question;
 const answer1=document.getElementById("ans1");
 const answer2=document.getElementById("ans2");
 const answer3=document.getElementById("ans3");
+const answer4=document.getAnimations("ans4");
 
-
-
+answer1.innerText=questions[i].answer[0].text;
+answer2.innerText=questions[i].answer[1].text;
+answer3.innerText=questions[i].answer[2].text;
+answer4.innerText=questions[i].answer[3].text;
 }
 
 
