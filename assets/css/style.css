@@ -48,21 +48,11 @@ img {
     padding-top: -20px;
 }
 
-button {
-    display: block;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: transparent;
-    color: black;
-    border-radius: 10px;
-    border: 2px solid black;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-
 a {
     text-decoration: none;
+    padding:20px;
+    background-color: white;
+    background: 2px solid black;
 }
 
 
