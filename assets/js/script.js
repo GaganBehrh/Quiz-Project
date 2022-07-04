@@ -82,7 +82,7 @@ function loopthrough(i) {
     result[0].innerText = "";
     const submitButton = document.getElementsByClassName("submitButton");
 
-    submitButton[0].addventListener("click", () => {
+    submitButton[0].addEventListener("click", () => {
         if (selectedvalue == "true") {
             result[0].innerHTML = "True";
             result[0].style.color = "green";
@@ -108,8 +108,7 @@ nextButton.addEventListener("click", () => {
     }
   
 })
-window.onload = init();
-console.log("Window onload is", window.onload);
+
 
 
 

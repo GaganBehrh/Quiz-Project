@@ -50,9 +50,8 @@ img {
 
 a {
     text-decoration: none;
-    padding:20px;
-    background-color: white;
-    background: 2px solid black;
+    padding: 20px;
+    background-color: aliceblue;
 }
 
 
@@ -64,6 +63,12 @@ label {
 li {
     list-style-type: none;
     display: inline;
+}
+button{
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 20px;
+
 }
 
 .buttons {
