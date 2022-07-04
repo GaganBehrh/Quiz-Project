@@ -101,7 +101,7 @@ var j = 0;
   if(nextButton){
 nextButton.addEventListener("click", () => {
     begin = false;
-    if (j < 3) {
+    if (j < 2) {
         j++;
         iterate(j);
         console.log(j);
@@ -109,7 +109,7 @@ nextButton.addEventListener("click", () => {
   
 })
 
-
+  }
 
 
 
