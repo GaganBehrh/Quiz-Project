@@ -98,18 +98,19 @@ if (begin) {
 
 const nextButton = document.getElementsByClassName('nextButton')[0];
 var j = 0;
-  if(nextButton){
+  
 nextButton.addEventListener("click", () => {
     begin = false;
-    if (j < 2) {
+    if (j < 3) {
         j++;
-        iterate(j);
+        loopthrough(j);
         console.log(j);
     }
   
 })
 
-  }
+
+  
 
 
 
