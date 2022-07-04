@@ -98,7 +98,7 @@ if (begin) {
 
 const nextButton = document.getElementsByClassName('nextButton')[0];
 var j = 0;
-  
+  if(nextButton){
 nextButton.addEventListener("click", () => {
     begin = false;
     if (j < 3) {
