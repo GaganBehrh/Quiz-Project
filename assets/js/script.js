@@ -96,7 +96,7 @@ function loopthrough(i) {
     submitButton[0].addEventListener("click", () => {
         if (selectedvalue === "true") {
             result[0].innerHTML = "True";
-            result[0].style.color = "green";
+            result[0].style.color = "lightgreen";
         } else {
             result[0].innerHTML = "False";
             result[0].style.color = "red";

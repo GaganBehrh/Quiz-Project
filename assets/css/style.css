@@ -50,8 +50,9 @@ img {
 
 a {
     text-decoration: none;
-    padding: 20px;
+    padding: 16px;
     background-color: aliceblue;
+    border-radius: 40px;
 }
 
 
@@ -78,6 +79,10 @@ button{
 }
 .answers{
     background-color: #F7E2E2;
+}
+.result{
+    font-size: 50px;
+    text-align: center;
 }
 
 @media screen and(max-width:1200px) {
