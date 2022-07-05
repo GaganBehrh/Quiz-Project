@@ -67,14 +67,23 @@ function loopthrough(i) {
     var selectedvalue = "";
 
     answer1.addEventListener("click", () => {
+        answer1.style.backgroundColor = "lightgreen";
+        answer2.style.backgroundColor = "red";
+        answer3.style.backgroundColor = "red";
         selectedvalue = answer1.value;
     })
 
     answer2.addEventListener("click", () => {
+        answer1.style.backgroundColor = "red";
+        answer2.style.backgroundColor = "lightgreen";
+        answer3.style.backgroundColor = "red";
         selectedvalue = answer2.value;
     })
 
     answer3.addEventListener("click", () => {
+        answer1.style.backgroundColor = "red";
+        answer2.style.backgroundColor = "red";
+        answer3.style.backgroundColor = "lightgreen";
         selectedvalue = answer3.value;
     })
 
@@ -83,7 +92,7 @@ function loopthrough(i) {
     const submitButton = document.getElementsByClassName("submitButton");
 
     submitButton[0].addEventListener("click", () => {
-        if (selectedvalue == "true") {
+        if (selectedvalue === "true") {
             result[0].innerHTML = "True";
             result[0].style.color = "green";
         } else {
