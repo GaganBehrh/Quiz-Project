@@ -1,43 +1,43 @@
 const questions = [{
     i: 0,
-    question: "What langauage you speak in Germany?",
+    question: "What is the most populous and most visited city in Switzerland?",
     answer: [
-        { text: "French", isCorrect: false },
-        { text: "German", isCorrect: true },
-        { text: "English", isCorrect: false }
+        { text: "Geneva", isCorrect: false },
+        { text: "Zurich", isCorrect: true },
+        { text: "Bern", isCorrect: false }
 
     ]
 
 },
 {
     i: 1,
-    question: "What langauage you speak in France?",
+    question: "What is the most populous and most visited city in France?",
     answer: [
-        { text: "Spanish", isCorrect: false, isSelected: false },
-        { text: "French", isCorrect: true },
-        { text: "German", isCorrect: false }
+        { text: "Nantes", isCorrect: false, isSelected: false },
+        { text: "Paris", isCorrect: true },
+        { text: "Bordeaux", isCorrect: false }
 
     ]
 
 },
 {
     i: 2,
-    question: "What langauage you speak in England?",
+    question: "What is the most populous and most visited city in Germany?",
     answer: [
-        { text: "Spanish", isCorrect: false },
-        { text: "English", isCorrect: true },
-        { text: "French", isCorrect: false }
+        { text: "Postdam", isCorrect: false },
+        { text: "Hamburg", isCorrect: true },
+        { text: "Cologne", isCorrect: false }
 
     ]
 
 },
 {
     i: 3,
-    question: "What langauage you speak in Greece?",
+    question: "What is the most populous and most visited city in Austria?",
     answer: [
-        { text: "Greek", isCorrect: true },
-        { text: "German", isCorrect: false },
-        { text: "English", isCorrect: false },
+        { text: "Vienna", isCorrect: true },
+        { text: "Salzburg", isCorrect: false },
+        { text: "Graz", isCorrect: false },
 
     ]
 }
