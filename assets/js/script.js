@@ -67,7 +67,7 @@ function loopthrough(i) {
     var selectedvalue = "";
 
     answer1.addEventListener("click", () => {
-        answer1.style.backgroundColor = "lightgreen";
+        answer1.style.backgroundColor = "#FFF89A";
         answer2.style.backgroundColor = "#F7E2E2";
         answer3.style.backgroundColor = "#F7E2E2";
         selectedvalue = answer1.value;
@@ -76,7 +76,7 @@ function loopthrough(i) {
     answer2.addEventListener("click", () => {
         
         answer1.style.backgroundColor = "#F7E2E2";
-        answer2.style.backgroundColor = "lightgreen";
+        answer2.style.backgroundColor = "#FFF89A";
         answer3.style.backgroundColor = "#F7E2E2";
         
         selectedvalue = answer2.value;
@@ -85,7 +85,7 @@ function loopthrough(i) {
     answer3.addEventListener("click", () => {
         answer1.style.backgroundColor = "#F7E2E2";
         answer2.style.backgroundColor = "#F7E2E2";
-        answer3.style.backgroundColor = "lightgreen";
+        answer3.style.backgroundColor = "#FFF89A";
         selectedvalue = answer3.value;
     })
 
