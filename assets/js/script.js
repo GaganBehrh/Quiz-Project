@@ -22,22 +22,22 @@ const questions = [{
 },
 {
     i: 2,
-    question: "What is the capital of Germany?",
+    question: "What langauage you speak in England?",
     answer: [
-        { text: "Hannover", isCorrect: false },
-        { text: "Berlin", isCorrect: true },
-        { text: "Munich", isCorrect: false }
+        { text: "Spanish", isCorrect: false },
+        { text: "English", isCorrect: true },
+        { text: "French", isCorrect: false }
 
     ]
 
 },
 {
     i: 3,
-    question: "What is the capital of France?",
+    question: "What langauage you speak in Greece?",
     answer: [
-        { text: "Paris", isCorrect: true },
-        { text: "Nantes", isCorrect: false },
-        { text: "Bordeaux", isCorrect: false },
+        { text: "Greek", isCorrect: true },
+        { text: "German", isCorrect: false },
+        { text: "English", isCorrect: false },
 
     ]
 }

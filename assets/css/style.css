@@ -81,8 +81,9 @@ button{
     background-color: #F7E2E2;
 }
 .result{
-    font-size: 50px;
+    
     text-align: center;
+    font-size: 50px;
 }
 
 @media screen and(max-width:1200px) {
