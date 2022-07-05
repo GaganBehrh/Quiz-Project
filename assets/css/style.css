@@ -76,6 +76,9 @@ button{
     flex-wrap: nowrap;
     padding: 20px;
 }
+.answers{
+    background-color: #F7E2E2;
+}
 
 @media screen and(max-width:1200px) {
     .wrapper {

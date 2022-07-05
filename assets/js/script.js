@@ -68,21 +68,23 @@ function loopthrough(i) {
 
     answer1.addEventListener("click", () => {
         answer1.style.backgroundColor = "lightgreen";
-        answer2.style.backgroundColor = "red";
-        answer3.style.backgroundColor = "red";
+        answer2.style.backgroundColor = "#F7E2E2";
+        answer3.style.backgroundColor = "#F7E2E2";
         selectedvalue = answer1.value;
     })
 
     answer2.addEventListener("click", () => {
-        answer1.style.backgroundColor = "red";
+        
+        answer1.style.backgroundColor = "#F7E2E2";
         answer2.style.backgroundColor = "lightgreen";
-        answer3.style.backgroundColor = "red";
+        answer3.style.backgroundColor = "#F7E2E2";
+        
         selectedvalue = answer2.value;
     })
 
     answer3.addEventListener("click", () => {
-        answer1.style.backgroundColor = "red";
-        answer2.style.backgroundColor = "red";
+        answer1.style.backgroundColor = "#F7E2E2";
+        answer2.style.backgroundColor = "#F7E2E2";
         answer3.style.backgroundColor = "lightgreen";
         selectedvalue = answer3.value;
     })
