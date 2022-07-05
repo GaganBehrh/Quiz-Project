@@ -26,7 +26,7 @@ const questions = [{
     answer: [
         { text: "Hannover", isCorrect: false },
         { text: "Berlin", isCorrect: true },
-        { text: "Munich", isCorrect: true }
+        { text: "Munich", isCorrect: false }
 
     ]
 
