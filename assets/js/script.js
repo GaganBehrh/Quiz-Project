@@ -22,7 +22,7 @@ const questions = [{
 },
 {
     i: 2,
-    question: "What is the capital of Germany",
+    question: "What is the capital of Germany?",
     answer: [
         { text: "Hannover", isCorrect: false },
         { text: "Berlin", isCorrect: true },
@@ -33,7 +33,7 @@ const questions = [{
 },
 {
     i: 3,
-    question: "What is the capital of France",
+    question: "What is the capital of France?",
     answer: [
         { text: "paris", isCorrect: true },
         { text: "Nantes", isCorrect: false },
@@ -49,9 +49,9 @@ function loopthrough(i) {
     const q = document.getElementById("q");
     q.innerText = questions[i].question;
 
-    const answer1 = document.getElementById("ans1");
-    const answer2 = document.getElementById("ans2");
-    const answer3 = document.getElementById("ans3");
+    const answer1 = document.getElementById("ans1").value;
+    const answer2 = document.getElementById("ans2").value;
+    const answer3 = document.getElementById("ans3").value;
    
 
     answer1.innerText = questions[i].answer[0].text;
