@@ -4,6 +4,7 @@ body {
     padding: 10px;
     min-height: 100% !important;
     height: 500px;
+    font-family: sans-serif;
 
 }
 
@@ -72,11 +73,14 @@ button{
 
 }
 
-
 .buttons {
     display: flex;
     flex-wrap: nowrap;
     padding: 20px;
+}
+.answersection{
+    display: block;
+
 }
 .answers{
     background-color: #F7E2E2;
@@ -152,13 +156,11 @@ button{
     }
     .questionbutton{
         display: flex;
-        flex-wrap: nowrap;
-        flex-direction: column;
-        align-content: stretch;
-        justify-content:center;
-        align-items: center;
-       
-        
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
     }
     .buttons {
         display: flex;
