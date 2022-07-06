@@ -157,7 +157,7 @@ button{
     .questionbutton{
         display: flex;
         flex-wrap: nowrap;
-        flex-direction: row;
+        flex-direction: column;
         align-content: stretch;
         justify-content: center;
         align-items: center;
@@ -185,7 +185,7 @@ button{
         padding: 40px;
     }
 
-    .quizContent h2{
+    .quizbutton h2{
         text-align: center;
     }
     .answers{
