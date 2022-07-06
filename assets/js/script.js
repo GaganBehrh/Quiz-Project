@@ -15,7 +15,7 @@ const questions = [{
     answer: [
         { text: "Nantes", isCorrect: false, isSelected: false },
         { text: "Paris", isCorrect: true },
-        { text: "Bordeaux", isCorrect: false }
+        { text: "Lyon", isCorrect: false }
 
     ]
 
@@ -24,9 +24,9 @@ const questions = [{
     i: 2,
     question: "What is the most populous and most visited city in Germany?",
     answer: [
-        { text: "Postdam", isCorrect: false },
+        { text: "Aach", isCorrect: false },
         { text: "Hamburg", isCorrect: true },
-        { text: "Cologne", isCorrect: false }
+        { text: "Calw", isCorrect: false }
 
     ]
 
