@@ -156,11 +156,11 @@ button{
     }
     .questionbutton{
         display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    align-content: stretch;
-    justify-content: center;
-    align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-content: stretch;
+        justify-content: center;
+        align-items: center;
     }
     .buttons {
         display: flex;
@@ -173,6 +173,11 @@ button{
    button{
     margin-right: 20px;
    }
+   .buttonresult{
+    display:flex;
+    flex-direction: column;
+   }
+   
 }
 
 @media screen and (max-width: 480px) {
@@ -202,12 +207,24 @@ button{
     }
 }
 @media screen and(min-width:1200px) {
-    .quizContent {
+    
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 100%;
+        margin: 85px 0px 0px 0px
+    }
+.quizContent {
         display: flex;
         align-content: stretch;
         justify-content: space-evenly;
         align-items: stretch;
         flex-wrap: wrap;
         flex-direction: column;
+    }
+    .answersection{
+        display: flex;
+        justify-content: center;align-items: center;
     }
 }
