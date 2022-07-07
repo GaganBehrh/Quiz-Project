@@ -78,6 +78,14 @@ button{
     flex-wrap: nowrap;
     padding: 20px;
 }
+.nextButton,.submitButton{
+    padding: 3px;
+    color: #ececec;
+    background-color: black;
+    border-radius: 2px;
+    font-size: 25px;
+}
+
 .answersection{
     display: block;
 
