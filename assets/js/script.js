@@ -78,11 +78,14 @@ nextButton.addEventListener("click", () => {
     }
   
 })
-var score=0;
-const endGameButton = document.getElementById('endGameButton');
 function endGame(){
-    alert("kdlfkldkf");
+    
+alert("Gams is over!!!");
 }
+
+var score=0;
+let endGameButton = document.getElementById('endGameButton');
+endGameButton.addEventListener("click",endGame);
 
 
 
