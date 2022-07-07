@@ -61,6 +61,7 @@ function loopthrough(i) {
         }
     })
 }
+
 if (begin) {
     loopthrough("0");
 }
@@ -76,6 +77,12 @@ nextButton.addEventListener("click", () => {
         console.log(j);
     }
   
+})
+
+const endGameButton = document.getElementsByClassName('endGameButton')[0];
+endGameButton.addEventListener("click", () => {
+    alert("Game is over");
+
 })
 
 
