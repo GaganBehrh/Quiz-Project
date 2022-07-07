@@ -104,6 +104,7 @@ function loopthrough(i) {
         else{
             result[0].style.color = "red";
             result[0].innerHTML = "False";
+        
             
         }
 
@@ -124,7 +125,6 @@ function loopthrough(i) {
         }
         else{
             result[0].style.color = "red";
-           
             result[0].innerHTML = "False";
         }
 
