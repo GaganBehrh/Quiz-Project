@@ -1,7 +1,8 @@
 import {questions} from './question.js';
-var totalScore=0;
+var score=0;
 var begin = true;
-
+var result = document.getElementsByClassName("result");
+result[0].innerText = "";
 
 function loopthrough(i) {
     const q = document.getElementById("q");
@@ -27,14 +28,39 @@ function loopthrough(i) {
         answer1.style.backgroundColor = "yellow";
         answer2.style.backgroundColor = "transparent";
         answer3.style.backgroundColor = "transparent";
+        console.log(answer1.value);
         selectedvalue = answer1.value;
+        if(answer1.value==="true"){
+            result[0].style.color = "lightgreen";
+            result[0].innerHTML = "True";
+            score++;
+        }
+        else{
+            result[0].style.color = "red";
+           
+            result[0].innerHTML = "False";
+        }
+
+        
     })
 
     answer2.addEventListener("click", () => {
         answer1.style.backgroundColor = "transparent";
         answer2.style.backgroundColor = "yellow";
         answer3.style.backgroundColor = "transparent";
+        console.log(answer2.value);
         selectedvalue = answer2.value;
+        if(answer2.value==="true"){
+            result[0].style.color = "lightgreen";
+            result[0].innerHTML = "True";
+            score++;
+        }
+        else{
+            result[0].style.color = "red";
+            result[0].innerHTML = "False";
+            score++;
+        }
+
         
     })
 
@@ -42,12 +68,24 @@ function loopthrough(i) {
         answer1.style.backgroundColor = "transparent";
         answer2.style.backgroundColor = "transparent";
         answer3.style.backgroundColor = "yellow";
+        console.log(answer3.value);
         selectedvalue = answer3.value;
+        if(answer3.value==="true"){
+            result[0].style.color = "lightgreen";
+           
+            result[0].innerHTML = "True";
+        }
+        else{
+            result[0].style.color = "red";
+           
+            result[0].innerHTML = "False";
+        }
+
     })
 
-    var result = document.getElementsByClassName("result");
-    result[0].innerText = "";
-    const submitButton = document.getElementsByClassName("submitButton");
+    //var result = document.getElementsByClassName("result");
+    //result[0].innerText = "";
+   /* const submitButton = document.getElementsByClassName("submitButton");
 
     submitButton[0].addEventListener("click", () => {
         if (selectedvalue === "true") {
@@ -59,7 +97,7 @@ function loopthrough(i) {
             result[0].innerHTML = "False";
             result[0].style.color = "red";
         }
-    })
+    })*/
     
 
 }
@@ -67,10 +105,7 @@ function loopthrough(i) {
 let endGameButton = document.getElementById('endGameButton');
 endGameButton.addEventListener("click",endGame);   
 function endGame(){    
-    alert("Gams is over!!!"+totalScore);
-if(answer1.value=="true"  || answer2.value=="true"  || answer3.value=="true")
-totalScore++;
-console.log(totalScore);
+alert("Game is over! Your score is"+score);
 }
 
 
