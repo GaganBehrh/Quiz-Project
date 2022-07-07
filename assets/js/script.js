@@ -1,8 +1,54 @@
-import {questions} from './question.js';
+
+const questions = [{
+    i: 0,
+    question: "What is the most populous and most visited city in Switzerland?",
+    answer: [
+        { text: "Geneva", isCorrect: false },
+        { text: "Zurich", isCorrect: true },
+        { text: "Bern", isCorrect: false }
+
+    ]
+
+},
+{
+    i: 1,
+    question: "What is the most populous and most visited city in France?",
+    answer: [
+        { text: "Nantes", isCorrect: false, isSelected: false },
+        { text: "Paris", isCorrect: true },
+        { text: "Lyon", isCorrect: false }
+
+    ]
+
+},
+{
+    i: 2,
+    question: "What is the most populous and most visited city in Germany?",
+    answer: [
+        { text: "Aach", isCorrect: false },
+        { text: "Hamburg", isCorrect: true },
+        { text: "Calw", isCorrect: false }
+
+    ]
+
+},
+{
+    i: 3,
+    question: "What is the most populous and most visited city in Austria?",
+    answer: [
+        { text: "Vienna", isCorrect: true },
+        { text: "Salzburg", isCorrect: false },
+        { text: "Graz", isCorrect: false },
+
+    ]
+}
+]
+
 var score=0;
 var begin = true;
 var result = document.getElementsByClassName("result");
 result[0].innerText = "";
+var selectedvalue = "";
 
 function loopthrough(i) {
     const q = document.getElementById("q");
@@ -22,7 +68,7 @@ function loopthrough(i) {
     answer3.value = questions[i].answer[2].isCorrect;
    
 
-    var selectedvalue = "";
+    
 
     answer1.addEventListener("click", () => {
         answer1.style.backgroundColor = "yellow";
@@ -34,10 +80,10 @@ function loopthrough(i) {
             result[0].style.color = "lightgreen";
             result[0].innerHTML = "True";
             score++;
+           
         }
         else{
             result[0].style.color = "red";
-           
             result[0].innerHTML = "False";
         }
 
@@ -58,7 +104,7 @@ function loopthrough(i) {
         else{
             result[0].style.color = "red";
             result[0].innerHTML = "False";
-            score++;
+            
         }
 
         
@@ -72,8 +118,9 @@ function loopthrough(i) {
         selectedvalue = answer3.value;
         if(answer3.value==="true"){
             result[0].style.color = "lightgreen";
-           
             result[0].innerHTML = "True";
+            score++;
+          
         }
         else{
             result[0].style.color = "red";
@@ -104,9 +151,10 @@ function loopthrough(i) {
 
 let endGameButton = document.getElementById('endGameButton');
 endGameButton.addEventListener("click",endGame);   
-function endGame(){    
+function endGame(event){  
 alert("Game is over! Your score is"+score);
 }
+
 
 
 
