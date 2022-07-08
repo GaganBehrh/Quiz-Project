@@ -65,7 +65,7 @@ function calcScore(currentSelectedValue) {
             result[0].innerText="True, Score is "+score;
         }
         else
-            score;
+        score;
     }
     /*event.preventDefault();
     console.log(event.target.value);
@@ -78,6 +78,7 @@ function calcScore(currentSelectedValue) {
 function loopthrough(i) {
     const q = document.getElementById("q");
     q.innerText = questions[i].question;
+
     const answer1 = document.getElementById("ans1");
     const answer2 = document.getElementById("ans2");
     const answer3 = document.getElementById("ans3");
@@ -102,7 +103,7 @@ function loopthrough(i) {
             result[0].innerHTML = "True";
             // score++;
             // console.log(answer1.value);
-            console.log(calcScore(selectedvalue));
+          
         }
         else {
             result[0].style.color = "red";
@@ -124,7 +125,7 @@ function loopthrough(i) {
             result[0].innerHTML = "True";
             //score++;
             //console.log(answer2.value);
-            console.log(calcScore(selectedvalue));
+           
         }
         else {
             result[0].style.color = "red";
@@ -148,7 +149,7 @@ function loopthrough(i) {
             result[0].innerHTML = "True";
             //score++;
             //  console.log(answer3.value);
-            console.log(calcScore(selectedvalue));
+            
 
         }
         else {
@@ -157,25 +158,27 @@ function loopthrough(i) {
         }
 
     })
+}
 
     //var result = document.getElementsByClassName("result");
     //result[0].innerText = "";
-    /* const submitButton = document.getElementsByClassName("submitButton");
+    const submitButton = document.getElementsByClassName("submitButton");
  
      submitButton[0].addEventListener("click", () => {
          if (selectedvalue === "true") {
              result[0].style.color = "lightgreen";
-             totalScore++;
-             result[0].innerHTML = "True \n Your score is"+totalScore+"/4";
+             console.log(calcScore(selectedvalue));
+             //totalScore++;
+             //result[0].innerHTML = "True \n Your score is"+totalScore+"/4";
              
          } else {
              result[0].innerHTML = "False";
              result[0].style.color = "red";
          }
-     })*/
+     })
 
 
-}
+
 
 let endGameButton = document.getElementById('endGameButton');
 endGameButton.addEventListener("click", endGame);
