@@ -62,7 +62,7 @@ function calcScore(currentSelectedValue) {
       if(currentSelectedValue==="true"){  
       score++;
             console.log("Score is "+score);
-            result[0].innerText="True, Score is "+score;
+            result[0].innerText="Correct,Score is "+score;
         }
         else
         score;
@@ -98,7 +98,7 @@ function loopthrough(i) {
         //console.log(answer1.value);
         selectedvalue = answer1.value;
         // console.log(selectedvalue);
-        if (answer1.value === "true") {
+       if (answer1.value === "true") {
             result[0].style.color = "lightgreen";
             result[0].innerHTML = "True";
             // score++;
@@ -183,7 +183,11 @@ function loopthrough(i) {
 let endGameButton = document.getElementById('endGameButton');
 endGameButton.addEventListener("click", endGame);
 function endGame(event) {
-    alert("Game is over! Your score is" + score);
+    alert("Game is over! Your score is" + score+"/4");
+    if(score<4)
+    alert("You lost! Try again later.... :(");
+    else
+    alert("You won! Congratulations!!!.. :) :)");
 }
 
 if (begin) {
