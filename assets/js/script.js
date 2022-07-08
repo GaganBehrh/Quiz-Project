@@ -44,25 +44,28 @@ const questions = [{
 }
 ]
 
-var correctAnswers=[
-    {ans:"Zurich"},
-    {ans:"Paris"},
-    {ans:"Hamburg"},
-    {ans:"Vienna"}
+var correctAnswers = [
+    { ans: 'Zurich' },
+    { ans: 'Paris' },
+    { ans: 'Hamburg' },
+    { ans: 'Vienna' }
 ]
 
-var score=0;
+var score = 0;
 var begin = true;
 var result = document.getElementsByClassName("result");
 result[0].innerText = "";
-var selectedvalue = "";
-function calcScore(){
-    for(let b=0;b<correctAnswers;b++){
-    if(selectedvalue===correctAnswers(b).ans)
-   {score++;
-    console.log(score);}
-    else
-    score;
+var selectedvalue = "", currentSelectedValue = "";
+function calcScore(currentSelectedValue) {
+    //for (let b = 0; b < correctAnswers; b++) {
+      //  if (selectedvalue.toLowerCase() === correctAnswers(b).ans.toLowerCase()) {
+      if(currentSelectedValue==="true"){  
+      score++;
+            console.log("Score is "+score);
+            result[0].innerText="True, Score is "+score;
+        }
+        else
+            score;
     }
     /*event.preventDefault();
     console.log(event.target.value);
@@ -70,7 +73,7 @@ function calcScore(){
     score++;
     else
     score;*/
-}
+
 
 function loopthrough(i) {
     const q = document.getElementById("q");
@@ -82,15 +85,10 @@ function loopthrough(i) {
     answer1.innerText = questions[i].answer[0].text;
     answer2.innerText = questions[i].answer[1].text;
     answer3.innerText = questions[i].answer[2].text;
-   
-   
 
     answer1.value = questions[i].answer[0].isCorrect;
     answer2.value = questions[i].answer[1].isCorrect;
     answer3.value = questions[i].answer[2].isCorrect;
-   
-
-    
 
     answer1.addEventListener("click", () => {
         answer1.style.backgroundColor = "yellow";
@@ -98,20 +96,20 @@ function loopthrough(i) {
         answer3.style.backgroundColor = "transparent";
         //console.log(answer1.value);
         selectedvalue = answer1.value;
-       // console.log(selectedvalue);
-        if(answer1.value==="true"){
+        // console.log(selectedvalue);
+        if (answer1.value === "true") {
             result[0].style.color = "lightgreen";
             result[0].innerHTML = "True";
-           // score++;
-          // console.log(answer1.value);
-           console.log(calcScore(selectedvalue));
+            // score++;
+            // console.log(answer1.value);
+            console.log(calcScore(selectedvalue));
         }
-        else{
+        else {
             result[0].style.color = "red";
             result[0].innerHTML = "False";
         }
 
-        
+
     })
 
     answer2.addEventListener("click", () => {
@@ -121,39 +119,39 @@ function loopthrough(i) {
         console.log(answer2.value);
         selectedvalue = answer2.value;
         //console.log(selectedvalue);
-        if(answer2.value==="true"){
+        if (answer2.value === "true") {
             result[0].style.color = "lightgreen";
             result[0].innerHTML = "True";
             //score++;
             //console.log(answer2.value);
-           console.log(calcScore(selectedvalue));
+            console.log(calcScore(selectedvalue));
         }
-        else{
+        else {
             result[0].style.color = "red";
             result[0].innerHTML = "False";
-        
-            
+
+
         }
 
-        
+
     })
 
-    answer3.addEventListener("click", () => {  
+    answer3.addEventListener("click", () => {
         answer1.style.backgroundColor = "transparent";
         answer2.style.backgroundColor = "transparent";
         answer3.style.backgroundColor = "yellow";
-       // console.log(answer3.value);
+        // console.log(answer3.value);
         selectedvalue = answer3.value;
-       // console.log(selectedvalue);
-        if(answer3.value==="true"){
+        // console.log(selectedvalue);
+        if (answer3.value === "true") {
             result[0].style.color = "lightgreen";
             result[0].innerHTML = "True";
             //score++;
-          //  console.log(answer3.value);
+            //  console.log(answer3.value);
             console.log(calcScore(selectedvalue));
-          
+
         }
-        else{
+        else {
             result[0].style.color = "red";
             result[0].innerHTML = "False";
         }
@@ -162,31 +160,28 @@ function loopthrough(i) {
 
     //var result = document.getElementsByClassName("result");
     //result[0].innerText = "";
-   /* const submitButton = document.getElementsByClassName("submitButton");
+    /* const submitButton = document.getElementsByClassName("submitButton");
+ 
+     submitButton[0].addEventListener("click", () => {
+         if (selectedvalue === "true") {
+             result[0].style.color = "lightgreen";
+             totalScore++;
+             result[0].innerHTML = "True \n Your score is"+totalScore+"/4";
+             
+         } else {
+             result[0].innerHTML = "False";
+             result[0].style.color = "red";
+         }
+     })*/
 
-    submitButton[0].addEventListener("click", () => {
-        if (selectedvalue === "true") {
-            result[0].style.color = "lightgreen";
-            totalScore++;
-            result[0].innerHTML = "True \n Your score is"+totalScore+"/4";
-            
-        } else {
-            result[0].innerHTML = "False";
-            result[0].style.color = "red";
-        }
-    })*/
-    
 
 }
 
 let endGameButton = document.getElementById('endGameButton');
-endGameButton.addEventListener("click",endGame);   
-function endGame(event){  
-alert("Game is over! Your score is"+score);
+endGameButton.addEventListener("click", endGame);
+function endGame(event) {
+    alert("Game is over! Your score is" + score);
 }
-
-
-
 
 if (begin) {
     loopthrough("0");
@@ -194,20 +189,20 @@ if (begin) {
 
 const nextButton = document.getElementsByClassName('nextButton')[0];
 var j = 0;
-  
+
 nextButton.addEventListener("click", () => {
     begin = false;
     if (j < 3) {
         j++;
         loopthrough(j);
-        console.log(j);
+       // console.log(j);
     }
-  
+
 })
 
 
 
-  
+
 
 
 
