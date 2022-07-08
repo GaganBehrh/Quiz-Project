@@ -66,7 +66,7 @@ function calcScore(currentSelectedValue) {
         else if(currentSelectedValue==="false")
         result[0].innerText="Wrong, Score is "+score;
         if(score==4)
-        result[0].innerText="Your score is "+score+" Game is over, Please Click on Finish button to know your Final Score ";
+        result[0].innerText="Your score is,  "+score+",  Game is over, Please Click on Finish button to know your Final Score ";
     }
    
 
@@ -176,6 +176,7 @@ nextButton.addEventListener("click", () => {
         loopthrough(j);
 
     }
+    
     if(score>4)
     alert("Game is over!!")
 
