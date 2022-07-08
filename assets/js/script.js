@@ -44,11 +44,33 @@ const questions = [{
 }
 ]
 
+var correctAnswers=[
+    {ans:"Zurich"},
+    {ans:"Paris"},
+    {ans:"Hamburg"},
+    {ans:"Vienna"}
+]
+
 var score=0;
 var begin = true;
 var result = document.getElementsByClassName("result");
 result[0].innerText = "";
 var selectedvalue = "";
+function calcScore(){
+    for(let b=0;b<correctAnswers;b++){
+    if(selectedvalue===correctAnswers(b).ans)
+   {score++;
+    console.log(score);}
+    else
+    score;
+    }
+    /*event.preventDefault();
+    console.log(event.target.value);
+    if(event.target.value==="true")
+    score++;
+    else
+    score;*/
+}
 
 function loopthrough(i) {
     const q = document.getElementById("q");
@@ -74,13 +96,15 @@ function loopthrough(i) {
         answer1.style.backgroundColor = "yellow";
         answer2.style.backgroundColor = "transparent";
         answer3.style.backgroundColor = "transparent";
-        console.log(answer1.value);
+        //console.log(answer1.value);
         selectedvalue = answer1.value;
+       // console.log(selectedvalue);
         if(answer1.value==="true"){
             result[0].style.color = "lightgreen";
             result[0].innerHTML = "True";
-            score++;
-           
+           // score++;
+          // console.log(answer1.value);
+           console.log(calcScore(selectedvalue));
         }
         else{
             result[0].style.color = "red";
@@ -96,10 +120,13 @@ function loopthrough(i) {
         answer3.style.backgroundColor = "transparent";
         console.log(answer2.value);
         selectedvalue = answer2.value;
+        //console.log(selectedvalue);
         if(answer2.value==="true"){
             result[0].style.color = "lightgreen";
             result[0].innerHTML = "True";
-            score++;
+            //score++;
+            //console.log(answer2.value);
+           console.log(calcScore(selectedvalue));
         }
         else{
             result[0].style.color = "red";
@@ -115,12 +142,15 @@ function loopthrough(i) {
         answer1.style.backgroundColor = "transparent";
         answer2.style.backgroundColor = "transparent";
         answer3.style.backgroundColor = "yellow";
-        console.log(answer3.value);
+       // console.log(answer3.value);
         selectedvalue = answer3.value;
+       // console.log(selectedvalue);
         if(answer3.value==="true"){
             result[0].style.color = "lightgreen";
             result[0].innerHTML = "True";
-            score++;
+            //score++;
+          //  console.log(answer3.value);
+            console.log(calcScore(selectedvalue));
           
         }
         else{
