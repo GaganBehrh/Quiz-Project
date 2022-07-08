@@ -64,8 +64,8 @@ function calcScore(currentSelectedValue) {
             console.log("Score is "+score);
             result[0].innerText="Correct,Score is "+score;
         }
-        else
-        score;
+        else if(currentSelectedValue==="false")
+        result[0].innerText="Wrong, Score is "+score;
     }
     /*event.preventDefault();
     console.log(event.target.value);
@@ -174,6 +174,7 @@ function loopthrough(i) {
          } else {
              result[0].innerHTML = "False";
              result[0].style.color = "red";
+             console.log(calcScore(selectedvalue));
          }
      })
 
