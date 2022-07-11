@@ -151,12 +151,11 @@ function loopthrough(i) {
          }
      })
 
-if(score>4)
-alert("Game is over!!!");
+
 let endGameButton = document.getElementById('endGameButton');
 endGameButton.addEventListener("click", endGame);
 function endGame(event) {
-    alert("Game is over! Your score is" + score+"/4");
+    alert("Your score is" + score+"/4");
     if(score<4)
     alert("You lost! Try again later.... :(");
     else 
@@ -177,8 +176,7 @@ nextButton.addEventListener("click", () => {
 
     }
     
-    if(score>4)
-    alert("Game is over!!")
+   
 
 })
 
