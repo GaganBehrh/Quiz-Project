@@ -66,7 +66,8 @@ li {
     list-style-type: none;
     display: inline;
 }
-button{
+
+button {
     padding: 20px;
     background-color: transparent;
     border-radius: 20px;
@@ -78,29 +79,46 @@ button{
     flex-wrap: nowrap;
     padding: 20px;
 }
-.nextButton,.submitButton{
+
+.nextButton,
+.submitButton {
     padding: 3px;
     color: #ececec;
     background-color: black;
     border-radius: 2px;
     font-size: 25px;
 }
-#endGameButton{
+
+#endGameButton {
     padding: 3px;
     color: #ececec;
     background-color: black;
     border-radius: 2px;
     font-size: 25px;
 }
-.answersection{
+
+.answersection {
     display: block;
 
 }
-.answers{
+
+.answers {
     background-color: #F7E2E2;
 }
-.result{
-    
+
+.selectedAnswer {
+    background-color: yellow;
+}
+.hide{
+    visibility: hidden;
+}
+
+.deselectedAnswer {
+    background-color: transparent;
+}
+
+.result {
+
     text-align: center;
     font-size: 30px;
 }
@@ -159,16 +177,17 @@ button{
         padding: 8px;
     }
 
-   
-    .quizContent{
+
+    .quizContent {
         display: flex;
         align-content: stretch;
         justify-content: space-evenly;
         align-items: center;
         flex-wrap: wrap;
-      
+
     }
-    .questionbutton{
+
+    .questionbutton {
         display: flex;
         flex-wrap: nowrap;
         flex-direction: column;
@@ -176,6 +195,7 @@ button{
         justify-content: center;
         align-items: center;
     }
+
     .buttons {
         display: flex;
         flex-wrap: nowrap;
@@ -184,28 +204,32 @@ button{
         justify-content: space-evenly;
         flex-direction: row;
     }
-   button{
-    margin-right: 20px;
-   }
-   .buttonresult{
-    display:flex;
-    flex-direction: column;
-   }
-   
+
+    button {
+        margin-right: 20px;
+    }
+
+    .buttonresult {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
 
 @media screen and (max-width: 480px) {
-    .quizContent{
+    .quizContent {
         padding: 40px;
     }
 
-    .questionbutton h2{
+    .questionbutton h2 {
         text-align: center;
     }
-    .answers{
+
+    .answers {
         display: block;
         margin: 0 auto;
     }
+
     .buttons {
         display: flex;
         flex-wrap: wrap;
@@ -216,12 +240,13 @@ button{
         align-items: stretch;
     }
 
-    button{
+    button {
         font-size: 25px;
     }
 }
+
 @media screen and(min-width:1200px) {
-    
+
     .flex-container {
         display: flex;
         flex-direction: row;
@@ -229,7 +254,8 @@ button{
         height: 100%;
         margin: 85px 0px 0px 0px
     }
-.quizContent {
+
+    .quizContent {
         display: flex;
         align-content: stretch;
         justify-content: space-evenly;
@@ -237,8 +263,10 @@ button{
         flex-wrap: wrap;
         flex-direction: column;
     }
-    .answersection{
+
+    .answersection {
         display: flex;
-        justify-content: center;align-items: center;
+        justify-content: center;
+        align-items: center;
     }
 }
