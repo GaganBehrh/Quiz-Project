@@ -142,7 +142,7 @@ const submitButton = document.getElementsByClassName("submitButton");
 let endGameButton = document.getElementById('endGameButton');
 endGameButton.addEventListener("click", endGame);
 function endGame(event) {
-    questionSection.classList.add("hide");
+    questionSection.classList.remove("hide");
     gameOver.classList.remove("hide");
 
 

@@ -109,7 +109,8 @@ button {
 .selectedAnswer {
     background-color: yellow;
 }
-.hide{
+
+.hide {
     visibility: hidden;
 }
 
@@ -121,6 +122,11 @@ button {
 
     text-align: center;
     font-size: 30px;
+}
+
+#gameover {
+    text-align: center;
+    font-size: 50px;
 }
 
 @media screen and(max-width:1200px) {
