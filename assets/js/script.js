@@ -55,10 +55,10 @@ var score = 0;
 var begin = true;
 var result = document.getElementsByClassName("result");
 result[0].innerText = "";
-var selectedvalue = "", currentSelectedValue = "";
-let gameOver = document.getElementById("gameover");
+var selectedValue = "", currentSelectedValue = "";
+let gameOver = document.getElementById("gameOver");
 gameOver.classList.add("hide");
-let questionSection = document.getElementById("questionsection");
+let questionSection = document.getElementById("questionSection");
 
 const answer1 = document.getElementById("ans1");
 const answer2 = document.getElementById("ans2");
@@ -77,11 +77,11 @@ function loopthrough(i) {
 
     answer1.addEventListener("click", () => {
         //toggleclass
-        // para.classList.toggle("paragraphClass");
-        answer1.classList.toggle("selectedAnswer");
-        answer2.classList.toggle("deselectedAnswer");
-        answer3.classList.toggle("deselectedAnswer");
         /*
+           answer1.classList.toggle("selectedAnswer");
+           answer2.classList.toggle("deselectedAnswer");
+           answer3.classList.toggle("deselectedAnswer");*/
+
         answer1.classList.remove("deselectedAnswer");
         answer1.classList.add("selectedAnswer");
         answer2.classList.remove("selectedAnswer");
@@ -89,9 +89,9 @@ function loopthrough(i) {
         answer3.classList.remove("selectedAnswer");
         answer3.classList.add("deselectedAnswer");
 
-*/
 
-        selectedvalue = answer1.value;
+
+        selectedValue = answer1.value;
 
         if (answer1.value === "true") {
             result[0].style.color = "lightgreen";
@@ -104,19 +104,20 @@ function loopthrough(i) {
     })
 
     answer2.addEventListener("click", () => {
+        /*
         answer1.classList.toggle("deselectedAnswer");
         answer2.classList.toggle("selectedAnswer");
         answer3.classList.toggle("deselectedAnswer");
-        /*
+        */
         answer2.classList.remove("deselectedAnswer");
         answer2.classList.add("selectedAnswer");
         answer1.classList.remove("selectedAnswer");
         answer1.classList.add("deselectedAnswer");
         answer3.classList.remove("selectedAnswer");
         answer3.classList.add("deselectedAnswer");
-*/
+
         console.log(answer2.value);
-        selectedvalue = answer2.value;
+        selectedValue = answer2.value;
         if (answer2.value === "true") {
             result[0].style.color = "lightgreen";
             result[0].innerHTML = "True";
@@ -128,17 +129,17 @@ function loopthrough(i) {
     })
 
     answer3.addEventListener("click", () => {
-
-        answer1.classList.toggle("deselectedAnswer");
-        answer2.classList.toggle("deselectedAnswer");
-        answer3.classList.toggle("selectedAnswer");
         /*
+                answer1.classList.toggle("deselectedAnswer");
+                answer2.classList.toggle("deselectedAnswer");
+                answer3.classList.toggle("selectedAnswer");
+                */
         answer3.classList.remove("deselectedAnswer");
         answer3.classList.add("selectedAnswer");
         answer1.classList.remove("selectedAnswer");
         answer1.classList.add("deselectedAnswer");
         answer2.classList.remove("selectedAnswer");
-        answer2.classList.add("deselectedAnswer");*/
+        answer2.classList.add("deselectedAnswer");
         if (answer3.value === "true") {
             result[0].style.color = "lightgreen";
             result[0].innerHTML = "True";
@@ -173,7 +174,7 @@ nextButton.addEventListener("click", () => {
     answer1.classList.remove("selectedAnswer");
     answer2.classList.remove("selectedAnswer");
     answer3.classList.remove("selectedAnswer");
-    if (selectedvalue === "true") {
+    if (selectedValue === "true") {
         score++;
     }
     result[0].innerText = "Correct,Score is " + score;

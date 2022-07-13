@@ -33,22 +33,6 @@ img {
     padding: 20px;
 }
 
-.finalpagecontent {
-    text-align: center;
-    padding: 20px;
-    margin-top: -59px;
-    ;
-}
-
-.finalpagecontent h1 {
-    padding-top: -20px;
-}
-
-.finalpagecontent h2 {
-    font-size: 27px;
-    padding-top: -20px;
-}
-
 a {
     text-decoration: none;
     padding: 16px;
@@ -97,7 +81,7 @@ button {
     font-size: 25px;
 }
 
-.answersection {
+.answerSection {
     display: block;
 
 }
@@ -124,7 +108,7 @@ button {
     font-size: 30px;
 }
 
-#gameover {
+#gameOver {
     text-align: center;
     font-size: 50px;
 }
@@ -193,7 +177,7 @@ button {
 
     }
 
-    .questionbutton {
+    .questionButton {
         display: flex;
         flex-wrap: nowrap;
         flex-direction: column;
@@ -215,7 +199,7 @@ button {
         margin-right: 20px;
     }
 
-    .buttonresult {
+    .buttonResult {
         display: flex;
         flex-direction: column;
     }
@@ -227,7 +211,7 @@ button {
         padding: 40px;
     }
 
-    .questionbutton h2 {
+    .questionButton h2 {
         text-align: center;
     }
 
@@ -270,7 +254,7 @@ button {
         flex-direction: column;
     }
 
-    .answersection {
+    .answerSection {
         display: flex;
         justify-content: center;
         align-items: center;
