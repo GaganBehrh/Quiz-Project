@@ -158,6 +158,10 @@ endGameButton.addEventListener("click", endGame);
 function endGame(event) {
     questionSection.classList.remove("hide");
     gameOver.classList.remove("hide");
+    if (score < 4)
+        gameOver.innerText = "Sorry,You Lost!Try again Later....:(";
+    else if (score >= 4)
+        gameOver.innerText = "Congrats!!!! you won... :)";
 
 
 }
@@ -179,7 +183,7 @@ nextButton.addEventListener("click", () => {
     }
     result[0].innerText = "Correct,Score is " + score;
     if (score > 4)
-        result[0].innerText = "Game is over, please click the finish button"
+        result[0].innerText = "This was the last question, please click the finish button"
     begin = false;
 
     if (j < 3) {
