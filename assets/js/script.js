@@ -77,6 +77,11 @@ function loopthrough(i) {
 
     answer1.addEventListener("click", () => {
         //toggleclass
+        // para.classList.toggle("paragraphClass");
+        answer1.classList.toggle("selectedAnswer");
+        answer2.classList.toggle("deselectedAnswer");
+        answer3.classList.toggle("deselectedAnswer");
+        /*
         answer1.classList.remove("deselectedAnswer");
         answer1.classList.add("selectedAnswer");
         answer2.classList.remove("selectedAnswer");
@@ -84,7 +89,7 @@ function loopthrough(i) {
         answer3.classList.remove("selectedAnswer");
         answer3.classList.add("deselectedAnswer");
 
-
+*/
 
         selectedvalue = answer1.value;
 
@@ -99,13 +104,17 @@ function loopthrough(i) {
     })
 
     answer2.addEventListener("click", () => {
+        answer1.classList.toggle("deselectedAnswer");
+        answer2.classList.toggle("selectedAnswer");
+        answer3.classList.toggle("deselectedAnswer");
+        /*
         answer2.classList.remove("deselectedAnswer");
         answer2.classList.add("selectedAnswer");
         answer1.classList.remove("selectedAnswer");
         answer1.classList.add("deselectedAnswer");
         answer3.classList.remove("selectedAnswer");
         answer3.classList.add("deselectedAnswer");
-
+*/
         console.log(answer2.value);
         selectedvalue = answer2.value;
         if (answer2.value === "true") {
@@ -120,12 +129,16 @@ function loopthrough(i) {
 
     answer3.addEventListener("click", () => {
 
+        answer1.classList.toggle("deselectedAnswer");
+        answer2.classList.toggle("deselectedAnswer");
+        answer3.classList.toggle("selectedAnswer");
+        /*
         answer3.classList.remove("deselectedAnswer");
         answer3.classList.add("selectedAnswer");
         answer1.classList.remove("selectedAnswer");
         answer1.classList.add("deselectedAnswer");
         answer2.classList.remove("selectedAnswer");
-        answer2.classList.add("deselectedAnswer");
+        answer2.classList.add("deselectedAnswer");*/
         if (answer3.value === "true") {
             result[0].style.color = "lightgreen";
             result[0].innerHTML = "True";
