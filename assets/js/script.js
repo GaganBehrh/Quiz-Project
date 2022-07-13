@@ -60,32 +60,13 @@ let gameOver = document.getElementById("gameover");
 gameOver.classList.add("hide");
 let questionSection = document.getElementById("questionsection");
 
-
-function calcScore(currentSelectedValue) {
-
-    if (currentSelectedValue === "true") {
-        score++;
-        console.log("Score is " + score);
-        result[0].innerText = "Correct,Score is " + score;
-    }
-    else if (currentSelectedValue === "false")
-        result[0].innerText = "Wrong, Score is " + score;
-    if (score == 4)
-        result[0].innerText = "Your score is,  " + score + ",  Game is over, Please Click on Finish button to know your Final Score ";
-}
-
-
 const answer1 = document.getElementById("ans1");
 const answer2 = document.getElementById("ans2");
 const answer3 = document.getElementById("ans3");
 function loopthrough(i) {
     const q = document.getElementById("q");
     q.innerText = questions[i].question;
-    /*
-        const answer1 = document.getElementById("ans1");
-        const answer2 = document.getElementById("ans2");
-        const answer3 = document.getElementById("ans3");
-    */
+
     answer1.innerText = questions[i].answer[0].text;
     answer2.innerText = questions[i].answer[1].text;
     answer3.innerText = questions[i].answer[2].text;
@@ -95,6 +76,7 @@ function loopthrough(i) {
     answer3.value = questions[i].answer[2].isCorrect;
 
     answer1.addEventListener("click", () => {
+        //toggleclass
         answer1.classList.remove("deselectedAnswer");
         answer1.classList.add("selectedAnswer");
         answer2.classList.remove("selectedAnswer");
@@ -102,9 +84,7 @@ function loopthrough(i) {
         answer3.classList.remove("selectedAnswer");
         answer3.classList.add("deselectedAnswer");
 
-        /*answer1.style.backgroundColor = "yellow";
-        answer2.style.backgroundColor = "transparent";
-        answer3.style.backgroundColor = "transparent";*/
+
 
         selectedvalue = answer1.value;
 
@@ -125,9 +105,7 @@ function loopthrough(i) {
         answer1.classList.add("deselectedAnswer");
         answer3.classList.remove("selectedAnswer");
         answer3.classList.add("deselectedAnswer");
-        /* answer1.style.backgroundColor = "transparent";
-         answer2.style.backgroundColor = "yellow";
-         answer3.style.backgroundColor = "transparent";*/
+
         console.log(answer2.value);
         selectedvalue = answer2.value;
         if (answer2.value === "true") {
@@ -141,10 +119,7 @@ function loopthrough(i) {
     })
 
     answer3.addEventListener("click", () => {
-        /*answer1.style.backgroundColor = "transparent";
-        answer2.style.backgroundColor = "transparent";
-        answer3.style.backgroundColor = "yellow";
-        selectedvalue = answer3.value;*/
+
         answer3.classList.remove("deselectedAnswer");
         answer3.classList.add("selectedAnswer");
         answer1.classList.remove("selectedAnswer");
@@ -164,31 +139,12 @@ function loopthrough(i) {
 }
 const submitButton = document.getElementsByClassName("submitButton");
 
-submitButton[0].addEventListener("click", () => {
-    if (selectedvalue === "true") {
-        result[0].style.color = "lightgreen";
-        console.log(calcScore(selectedvalue));
-
-
-    } else {
-        result[0].innerHTML = "False";
-        result[0].style.color = "red";
-        console.log(calcScore(selectedvalue));
-    }
-})
-
-
 let endGameButton = document.getElementById('endGameButton');
 endGameButton.addEventListener("click", endGame);
 function endGame(event) {
     questionSection.classList.add("hide");
     gameOver.classList.remove("hide");
-    /*
-    alert("Your score is" + score + "/4");
-    if (score < 4)
-        alert("You lost! Try again later.... :(");
-    else
-        alert("You won! Congratulations!!!.. :) :)");*/
+
 
 }
 
@@ -215,9 +171,6 @@ nextButton.addEventListener("click", () => {
         loopthrough(j);
 
     }
-
-
-
 })
 
 
