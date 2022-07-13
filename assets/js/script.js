@@ -178,6 +178,8 @@ nextButton.addEventListener("click", () => {
         score++;
     }
     result[0].innerText = "Correct,Score is " + score;
+    if (score > 4)
+        result[0].innerText = "Game is over, please click the finish button"
     begin = false;
 
     if (j < 3) {

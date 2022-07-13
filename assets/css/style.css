@@ -110,7 +110,7 @@ button {
 
 #gameOver {
     text-align: center;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 @media screen and(max-width:1200px) {
