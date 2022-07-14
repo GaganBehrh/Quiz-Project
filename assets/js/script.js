@@ -44,18 +44,11 @@ const questions = [{
 }
 ]
 
-var correctAnswers = [
-    { ans: 'Zurich' },
-    { ans: 'Paris' },
-    { ans: 'Hamburg' },
-    { ans: 'Vienna' }
-]
-
 var score = 0;
 var begin = true;
 var result = document.getElementsByClassName("result");
 result[0].innerText = "";
-var selectedValue = "", currentSelectedValue = "";
+var selectedValue = "";
 let gameOver = document.getElementById("gameOver");
 gameOver.classList.add("hide");
 let questionSection = document.getElementById("questionSection");
@@ -151,8 +144,6 @@ function loopthrough(i) {
 
     })
 }
-const submitButton = document.getElementsByClassName("submitButton");
-
 let endGameButton = document.getElementById('endGameButton');
 endGameButton.addEventListener("click", endGame);
 function endGame(event) {
