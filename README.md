@@ -50,21 +50,18 @@ On the start screen user sees the beautiful picture of Europe on the left and an
 When the users begins the quiz the first question with three possible answers is generated.
 The answers are each in their own button. When clicked they will change the colour.
 Depending upon if the answer is correct or not user can see the true or false response depending upon the responses respectively.
+##True Response Image
+![image](https://user-images.githubusercontent.com/63474017/178935428-949f7157-2243-4dec-8293-27967497287d.png)
+##False Response Image
+![image](https://user-images.githubusercontent.com/63474017/178937435-aba47bee-97c9-4557-9b51-ae1cf0f9d968.png)
 
-
-If you had an incorrect answer the background and the button color will be red:
-
-![My Image](assets/images/incorrect-answer.jpg)
+The Score depending upon the response will appear on the click of the next button
+![image](https://user-images.githubusercontent.com/63474017/178938015-134488fe-7d6f-49fb-8b69-92e8ef9d5345.png)
 
 ### End of the game
 
-At the end of the game, the player's result will appear. In parallel with this a text also appear which its content is depend of the player's result. 
-
-![My Image](assets/images/end-page.jpg)
-
-### Footer
-
-The footer is simple and it contains copyright info.
+At the end of the game user can clisck on the finish button and a message displaying the feedback if he lost or won will appear depending upon the score
+![image](https://user-images.githubusercontent.com/63474017/178938145-5b6741d8-2791-4dec-b3d3-f7fbf49c7f84.png)
 
 ## Resources
 
@@ -73,23 +70,18 @@ The footer is simple and it contains copyright info.
 - Code Institute Mentor meetings and support
 - Code Institute tutor support
 - Am I Responsive for a responsive image in README
-- mikocoffee for image of the coffee beans
-- [pexels](https://www.pexels.com/nl-nl/zoeken/coffee/) for image of cup of coffee
+- Image...
+- ................................
 
 ## Testing
 
-### Browser testing
-
-Website was tested in Google Chrome, Opera, Microsoft Edge and Safari. On each browser this website works properly (functionality, visuality).
-
-It was tested on  Macbook Pro, Apple iPhone 13 Pro and Samsung A6 and A10 mobile phones and the website worked on these type of devices.
 
 ### Validators
 
 The HTML was checked by W3C HTML validator and it did not reported any issues.
 You can see the result below:
 
-![My Image](assets/images/w3c-html-assessment.jpg)
+![image](https://user-images.githubusercontent.com/63474017/178939702-d2833062-a0e3-42f8-8596-bff35a573274.png)
 
 The CSS was checked by W3C Jigsaw validator it did not reported any issues.
 
