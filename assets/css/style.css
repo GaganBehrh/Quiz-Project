@@ -113,7 +113,7 @@ button {
     font-size: 30px;
 }
 
-@media screen and(max-width:1200px) {
+@media screen and (max-width:1200px) {
     .wrapper {
         display: flex;
         flex-direction: row;
@@ -129,16 +129,12 @@ button {
 
 @media screen and (min-width: 640px) {
 
-    /*
-    .container{
-         margin: 164px -59px 15px -20px;
-    }*/
     .flex-container {
         display: flex;
         flex-direction: row;
         justify-content: center;
         height: 100%;
-        margin: 85px 0px 0px 0px
+        margin: 85px 0px 0px 0px;
     }
 
     header {
@@ -235,14 +231,15 @@ button {
     }
 }
 
-@media screen and(min-width:1200px) {
+@media screen and (min-width:1200px) {
 
     .flex-container {
         display: flex;
         flex-direction: row;
         justify-content: center;
         height: 100%;
-        margin: 85px 0px 0px 0px
+        margin: 85px 0px 0px 0px;
+
     }
 
     .quizContent {
