@@ -70,8 +70,8 @@ At the end of the game user can click on the finish button and a message display
 - Code Institute Mentor meetings and support
 - Code Institute tutor support
 - Am I Responsive for a responsive image in README
-- Image...
-- ................................
+- .......
+- The picture was taken from this resource (https://unsplash.com/photos/dBtWLliLt5k)
 
 ## Testing
 
