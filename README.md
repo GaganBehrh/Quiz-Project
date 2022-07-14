@@ -2,12 +2,10 @@
 
 I have been living in Europe since quite long time time almost 10 years and i thought to create a quiz over this topic can be interesting.
 
-For link to this website click [Here].....
+For link to this website click [Here]  https://gaganbehrh.github.io/Quiz-Project/
 
 Design has been focused to *Desktop, Laptop, Tablet first* and *Responsive* but this quiz is also working on mobile phones as you can see on the figure below.
-
-![image](https://user-images.githubusercontent.com/63474017/178993182-7279e925-03f3-497f-b46e-7b4f73affe5a.png)
-
+![image](https://user-images.githubusercontent.com/63474017/178993475-ec7a7e99-dc7d-4fb5-946e-dc1a4a214c6c.png)
 ## Who is this quiz for?
 
 This quiz contains questions which are related to Europe.Players who are interested to know more about Europe are more than welcome to play this quiz.
