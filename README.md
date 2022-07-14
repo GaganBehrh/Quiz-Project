@@ -15,7 +15,7 @@ This quiz contains questions which are related to Europe.Players who are interes
 ## UX summary
 
 This page was created in a simple way. The information is clear and serves to help the visitors of the website.
-My goals were as you can read below:
+The objective to create the project was:
 * Create fun interactive quiz for people who would like to know some interesting facts about Europe
 * Design the quiz aesthetically pleasing with simple and clear way
 * To make the quiz responsive.
@@ -55,12 +55,12 @@ Depending upon if the answer is correct or not user can see the true or false re
 ##False Response Image
 ![image](https://user-images.githubusercontent.com/63474017/178937435-aba47bee-97c9-4557-9b51-ae1cf0f9d968.png)
 
-The Score depending upon the response will appear on the click of the next button
+The Score depending upon the response will appear on the click of the next button along with the following question
 ![image](https://user-images.githubusercontent.com/63474017/178938015-134488fe-7d6f-49fb-8b69-92e8ef9d5345.png)
 
 ### End of the game
 
-At the end of the game user can clisck on the finish button and a message displaying the feedback if he lost or won will appear depending upon the score
+At the end of the game user can click on the finish button and a message displaying the feedback if he lost or won will appear depending upon the score
 ![image](https://user-images.githubusercontent.com/63474017/178938145-5b6741d8-2791-4dec-b3d3-f7fbf49c7f84.png)
 
 ## Resources
@@ -78,7 +78,7 @@ At the end of the game user can clisck on the finish button and a message displa
 
 ### Validators
 
-The HTML was checked by W3C HTML validator and it did not reported any issues.
+The HTML was checked by W3C HTML validator and it did not reported display any errors.
 You can see the result below:
 index.html verification
 ![image](https://user-images.githubusercontent.com/63474017/178939702-d2833062-a0e3-42f8-8596-bff35a573274.png)
@@ -86,7 +86,7 @@ QuozPage.html verification
 ![image](https://user-images.githubusercontent.com/63474017/178940995-c8b6aaf6-e672-47d2-bacb-c3c42a6ea49f.png)
 
 
-The CSS was checked by W3C Jigsaw validator it did not reported any issues.
+The CSS was checked by W3C Jigsaw validator it did not display any errors.
 
 ![image](https://user-images.githubusercontent.com/63474017/178941171-6c22f423-9d9a-45ff-a7d9-f1613187fc35.png)
 
@@ -115,8 +115,8 @@ Desktop test:
 ## Version control
 I managed the versions with the following process:
 - I created a repository in GitHub
-- I opened and developped the repository in GitPod
-- I created and developped the files and folders in GitPod
+- I opened and developed the repository in GitPod
+- I created and developed the files and folders in GitPod
 - I used commit messages to help the development with short notices and pushed the changes on GitHub from time to time
 - I saved and pushed my works to GitHub repository:
     1. git add . - adding work to git
