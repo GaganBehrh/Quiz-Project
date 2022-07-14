@@ -6,7 +6,7 @@ For link to this website click [Here].....
 
 Design has been focused to *Desktop, Laptop, Tablet first* and *Responsive* but this quiz is also working on mobile phones as you can see on the figure below.
 
-.........................................................
+![image](https://user-images.githubusercontent.com/63474017/178993182-7279e925-03f3-497f-b46e-7b4f73affe5a.png)
 
 ## Who is this quiz for?
 
@@ -50,9 +50,9 @@ On the start screen user sees the beautiful picture of Europe on the left and an
 When the users begins the quiz the first question with three possible answers is generated.
 The answers are each in their own button. When clicked they will change the colour.
 Depending upon if the answer is correct or not user can see the true or false response depending upon the responses respectively.
-##True Response Image
+## True Response Image
 ![image](https://user-images.githubusercontent.com/63474017/178935428-949f7157-2243-4dec-8293-27967497287d.png)
-##False Response Image
+## False Response Image
 ![image](https://user-images.githubusercontent.com/63474017/178937435-aba47bee-97c9-4557-9b51-ae1cf0f9d968.png)
 
 The Score depending upon the response will appear on the click of the next button along with the following question
@@ -69,8 +69,6 @@ At the end of the game user can click on the finish button and a message display
 - Code Institute Slack Community for some helps and idea
 - Code Institute Mentor meetings and support
 - Code Institute tutor support
-- Am I Responsive for a responsive image in README
-- .......
 - The picture was taken from this resource (https://unsplash.com/photos/dBtWLliLt5k)
 
 ## Testing
