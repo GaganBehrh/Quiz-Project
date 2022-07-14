@@ -1,6 +1,6 @@
 # European Quiz-Project
 
-I have been living in Europe since quite long time time almost 10 years and i thought to create a quiz over this topic.
+I have been living in Europe since quite long time time almost 10 years and i thought to create a quiz over this topic can be interesting.
 
 For link to this website click [Here].....
 
