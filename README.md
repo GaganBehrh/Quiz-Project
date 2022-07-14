@@ -38,25 +38,19 @@ To achieve these goals I used JavaScript to create these fictional quiz. I used 
 
 ### Start Screen
 
-![My Image](assets/images/start-page.jpg)
+![image](https://user-images.githubusercontent.com/63474017/178934212-20a91ef0-6b92-439b-871a-b3adb8d0538f.png)
 
-On the start screen the user will see the title of the Quiz and two pictures which are related to the coffee. Furthermore, on this page you can find an intro text for game. It contains a header and a footer also.
+On the start screen user sees the beautiful picture of Europe on the left and an encourage/challenging message for the user to ask about his knowledge in Europe and asks him to begin the quiz
 
-### Intro page
-
-![My Image](assets/images/quiz-intro-page.jpg)
-
-This page shows the basic structure of the game and contains the start button for the quiz. The player can realize the places of answer buttons, the header and the footer.
 
 ### Questions and answers
 
 ![My Image](assets/images/question-page.jpg)
 
-When the users begins the quiz the first question with possible four answers is generated.
+When the users begins the quiz the first question with three possible answers is generated.
 The answers are each in their own button. When clicked they will change the colour.
-At correct answer you can see a similar pictures on your screen with green background color and button color:
+Depending upon if the answer is correct or not user can see the true or false response depending upon the responses respectively.
 
-![My Image](assets/images/correct-answer.jpg)
 
 If you had an incorrect answer the background and the button color will be red:
 
