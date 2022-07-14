@@ -80,44 +80,44 @@ At the end of the game user can clisck on the finish button and a message displa
 
 The HTML was checked by W3C HTML validator and it did not reported any issues.
 You can see the result below:
-
+index.html verification
 ![image](https://user-images.githubusercontent.com/63474017/178939702-d2833062-a0e3-42f8-8596-bff35a573274.png)
+QuozPage.html verification
+![image](https://user-images.githubusercontent.com/63474017/178940995-c8b6aaf6-e672-47d2-bacb-c3c42a6ea49f.png)
+
 
 The CSS was checked by W3C Jigsaw validator it did not reported any issues.
 
-![My Image](assets/images/w3c-css-assessment.jpg)
+![image](https://user-images.githubusercontent.com/63474017/178941171-6c22f423-9d9a-45ff-a7d9-f1613187fc35.png)
 
 The JS was checked via JSHint According to the assessment some functions are available in ES6 version. It was the reason that I got some warnings in the assessment.
+![image](https://user-images.githubusercontent.com/63474017/178941722-8cca6e8e-675f-4195-aa33-cab347700991.png)
 
-![My Image](assets/images/jshint-check-part1.jpg)
-
-and
-
-![My Image](assets/images/jshint-check-part2.jpg) 
 
 ### Local testing
 
 The buttons of the website were tested locally and these worked properly.
 
+### Local testing
+![image](https://user-images.githubusercontent.com/63474017/178942469-c787c98b-cf3e-48f2-9727-b2821d78eff0.png)
+
+
 ### Responsiveness
 
-I used Google Chrome Dev Tools for this exercise. I tested for mobile and desktop devices.
+I used Google Chrome Dev Tools for this exercise. I tested for mobile, ipad and desktop devices.
 
 Mobile test:
-![My Image](assets/images/lighthouse-mobile.jpg)
+.......
 
 Desktop test:
-![My Image](assets/images/lighthouse-desktop.jpg)
+.......
 
 ## Version control
-
-I used two repositories during the development: GitPod for local repository and GitHub for remote or background repository. 
-
 I managed the versions with the following process:
 - I created a repository in GitHub
 - I opened and developped the repository in GitPod
 - I created and developped the files and folders in GitPod
-- I used commit messages to help the development with short notices
+- I used commit messages to help the development with short notices and pushed the changes on GitHub from time to time
 - I saved and pushed my works to GitHub repository:
     1. git add . - adding work to git
     2. git commit -m "Commit message" - to commit the stage of work
