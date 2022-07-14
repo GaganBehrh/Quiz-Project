@@ -1,259 +1,245 @@
 body {
-    background-color: #00DBDE;
-    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
-    padding: 10px;
-    min-height: 100% !important;
-    height: 500px;
-    font-family: sans-serif;
-
+  background-color: #00dbde;
+  background-image: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+  padding: 10px;
+  min-height: 100% !important;
+  height: 500px;
+  font-family: sans-serif;
 }
 
 .container {
-    margin: 0;
-    padding: 33px;
-    color: #ffffff;
-    height: 100%;
-
+  margin: 0;
+  padding: 33px;
+  color: #ffffff;
+  height: 100%;
 }
 
 header {
-    text-align: center;
-
+  text-align: center;
 }
 
 img {
-    width: 100%;
-    height: 30vh;
-    border-radius: 20px;
-
+  width: 100%;
+  height: 30vh;
+  border-radius: 20px;
 }
 
 .content {
-    text-align: center;
-    padding: 20px;
+  text-align: center;
+  padding: 20px;
 }
 
 a {
-    text-decoration: none;
-    padding: 16px;
-    background-color: aliceblue;
-    border-radius: 40px;
+  text-decoration: none;
+  padding: 16px;
+  background-color: aliceblue;
+  border-radius: 40px;
 }
-
 
 input,
 label {
-    float: left;
+  float: left;
 }
 
 li {
-    list-style-type: none;
-    display: inline;
+  list-style-type: none;
+  display: inline;
 }
 
 button {
-    padding: 20px;
-    background-color: transparent;
-    border-radius: 20px;
-
+  padding: 20px;
+  background-color: transparent;
+  border-radius: 20px;
 }
 
 .buttons {
-    display: flex;
-    flex-wrap: nowrap;
-    padding: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 20px;
 }
 
 .nextButton,
 .submitButton {
-    padding: 3px;
-    color: #ececec;
-    background-color: black;
-    border-radius: 2px;
-    font-size: 25px;
+  padding: 3px;
+  color: #ececec;
+  background-color: black;
+  border-radius: 2px;
+  font-size: 25px;
 }
 
 #endGameButton {
-    padding: 3px;
-    color: #ececec;
-    background-color: black;
-    border-radius: 2px;
-    font-size: 25px;
+  padding: 3px;
+  color: #ececec;
+  background-color: black;
+  border-radius: 2px;
+  font-size: 25px;
 }
 
 .answerSection {
-    display: block;
-
+  display: block;
 }
 
 .answers {
-    background-color: #F7E2E2;
+  background-color: #f7e2e2;
 }
 
 .selectedAnswer {
-    background-color: yellow;
+  background-color: yellow;
 }
 
 .hide {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 .deselectedAnswer {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .result {
-
-    text-align: center;
-    font-size: 30px;
+  text-align: center;
+  font-size: 30px;
 }
 
 #gameOver {
-    text-align: center;
-    font-size: 30px;
+  text-align: center;
+  font-size: 30px;
 }
 
-@media screen and (max-width:1200px) {
-    .wrapper {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        min-height: 100%;
-        height: 100%;
-    }
+@media screen and (max-width: 1200px) {
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-height: 100%;
+    height: 100%;
+  }
 
-    .container h2 {
-        color: red;
-    }
+  .container h2 {
+    color: white;
+  }
 }
 
 @media screen and (min-width: 640px) {
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    margin: 85px 0px 0px 0px;
+  }
 
-    .flex-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        height: 100%;
-        margin: 85px 0px 0px 0px;
-    }
+  header {
+    font-size: 170%;
+  }
 
-    header {
-        font-size: 170%;
-    }
+  img {
+    flex: 1;
+    height: 94%;
+    width: 92%;
+  }
 
-    img {
-        flex: 1;
-        height: 94%;
-        width: 92%;
-    }
+  .content {
+    padding: 28px;
+    flex: 0 1 193px;
+    font-size: 20px;
+  }
 
-    .content {
-        padding: 28px;
-        flex: 0 1 193px;
-        font-size: 20px;
-    }
+  .content h2,
+  h3 {
+    font-size: 25px;
+    padding: 8px;
+  }
 
-    .content h2,
-    h3 {
-        font-size: 25px;
-        padding: 8px;
-    }
+  .content h3 {
+    padding: 8px;
+  }
 
-    .content h3 {
-        padding: 8px;
-    }
+  .quizContent {
+    display: flex;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+  }
 
+  .questionButton {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .quizContent {
-        display: flex;
-        align-content: stretch;
-        justify-content: space-evenly;
-        align-items: center;
-        flex-wrap: wrap;
+  .buttons {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+  }
 
-    }
+  button {
+    margin-right: 20px;
+  }
 
-    .questionButton {
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: column;
-        align-content: stretch;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .buttons {
-        display: flex;
-        flex-wrap: nowrap;
-        align-content: flex-start;
-        align-items: center;
-        justify-content: space-evenly;
-        flex-direction: row;
-    }
-
-    button {
-        margin-right: 20px;
-    }
-
-    .buttonResult {
-        display: flex;
-        flex-direction: column;
-    }
-
+  .buttonResult {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 480px) {
-    .quizContent {
-        padding: 40px;
-    }
+  .quizContent {
+    padding: 40px;
+  }
 
-    .questionButton h2 {
-        text-align: center;
-    }
+  .questionButton h2 {
+    text-align: center;
+  }
 
-    .answers {
-        display: block;
-        margin: 0 auto;
-    }
+  .answers {
+    display: block;
+    margin: 0 auto;
+  }
 
-    .buttons {
-        display: flex;
-        flex-wrap: wrap;
-        padding: 20px;
-        flex-direction: column;
-        align-content: stretch;
-        justify-content: space-evenly;
-        align-items: stretch;
-    }
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: stretch;
+  }
 
-    button {
-        font-size: 25px;
-    }
+  button {
+    font-size: 25px;
+  }
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width: 1200px) {
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    margin: 85px 0px 0px 0px;
+  }
 
-    .flex-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        height: 100%;
-        margin: 85px 0px 0px 0px;
+  .quizContent {
+    display: flex;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
 
-    }
-
-    .quizContent {
-        display: flex;
-        align-content: stretch;
-        justify-content: space-evenly;
-        align-items: stretch;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-
-    .answerSection {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+  .answerSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
