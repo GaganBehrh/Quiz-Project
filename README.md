@@ -20,6 +20,14 @@ The objective to create the project was:
 
 To achieve these goals I used JavaScript to create these fictional quiz. I used HTML and CSS for the content and to make a good look for it. 
 
+## User story:
+(1)As a user, I want to be able to test my knowledge about different cities in Europe.
+(2)As a user , I want to know my score.
+(3)As a user, I want to know when I am on the last question.
+(4)As a user, I want to able to know if i lost or won the game.
+(5)As a user, I want to know if the selected option is correct or not
+(6)As a user, I would like to see if all the buttons are functional.
+
 
 ### Features for future implementation
 * Could increase the number of questions that the player could play longer time with the quiz. The subject provide almost endless number of questions.
@@ -73,6 +81,7 @@ At the end of the game user can click on the finish button and a message display
 ## Testing
 
 
+
 ### Validators
 
 The HTML was checked by W3C HTML validator and it did not reported display any errors.
@@ -91,9 +100,21 @@ The JS was checked via JSHint According to the assessment some functions are ava
 ![image](https://user-images.githubusercontent.com/63474017/178941722-8cca6e8e-675f-4195-aa33-cab347700991.png)
 
 
-### Local testing
-
-The buttons of the website were tested locally and these worked properly.
+### Manual testing
+## User story testing:
+## User story:
+(1) As a user, I want to be able to test my knowledge about different cities in Europe.
+    Result:PASS, there are questions found relatded to different countries of Europe which will test the player's knowledge about Europe
+(2) As a user , I want to know my score.
+    Result:PASS, when you click on the next button the score appears depending upon the response
+(3) As a user, I want to know when I am on the last question.
+    Result:PASS, when you reach the highest score and click on the next button a message indicaing thats almost the end of the game appears
+(4) As a user, I want to able to know if i lost or won the game.
+    Result:PASS, when you click on the Finish button,message concerning the winning and loosing appears on the screen
+(5) As a user, I want to know if the selected option is correct or not
+    Result:PASS, when you click on the currrent option whether its correct/incorrect is displayed by true or false message
+(6) As a user, I would like to see if all the buttons are functional.
+    Resukt;PASS,the buttons of the website were tested locally and these worked properly.
 
 ### Local testing
 ![image](https://user-images.githubusercontent.com/63474017/178942469-c787c98b-cf3e-48f2-9727-b2821d78eff0.png)
@@ -102,12 +123,7 @@ The buttons of the website were tested locally and these worked properly.
 ### Responsiveness
 
 I used Google Chrome Dev Tools for this exercise. I tested for mobile, ipad and desktop devices.
-
-Mobile test:
-.......
-
-Desktop test:
-.......
+and it was found to be responsive from the ami responsive website.
 
 ## Version control
 I managed the versions with the following process:
