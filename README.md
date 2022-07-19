@@ -21,12 +21,12 @@ The objective to create the project was:
 To achieve these goals I used JavaScript to create these fictional quiz. I used HTML and CSS for the content and to make a good look for it. 
 
 ## User story:
-(1)As a user, I want to be able to test my knowledge about different cities in Europe.
-(2)As a user , I want to know my score.
-(3)As a user, I want to know when I am on the last question.
-(4)As a user, I want to able to know if i lost or won the game.
-(5)As a user, I want to know if the selected option is correct or not
-(6)As a user, I would like to see if all the buttons are functional.
+1. As a user, I want to be able to test my knowledge about different cities in Europe.
+2. As a user , I want to know my score.
+3. As a user, I want to know when I am on the last question.
+4. As a user, I want to able to know if i lost or won the game.
+5. As a user, I want to know if the selected option is correct or not
+6. As a user, I would like to see if all the buttons are functional.
 
 
 ### Features for future implementation
