@@ -51,9 +51,6 @@ On the start screen user sees the beautiful picture of Europe on the left and an
 
 
 ### Questions and answers
-
-![My Image](assets/images/question-page.jpg)
-
 When the users begins the quiz the first question with three possible answers is generated.
 The answers are each in their own button. When clicked they will change the colour.
 Depending upon if the answer is correct or not user can see the true or false response depending upon the responses respectively.
