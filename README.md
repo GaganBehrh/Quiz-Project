@@ -20,6 +20,7 @@ The objective to create the project was:
 
 To achieve these goals I used JavaScript to create these fictional quiz. I used HTML and CSS for the content and to make a good look for it. 
 
+
 ### Features for future implementation
 * Could increase the number of questions that the player could play longer time with the quiz. The subject provide almost endless number of questions.
 * Attached relevant pictures to the questions related to different countries for example with the changing question.
