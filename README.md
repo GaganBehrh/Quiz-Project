@@ -103,17 +103,17 @@ The JS was checked via JSHint According to the assessment some functions are ava
 ### Manual testing
 ## User story testing:
 ## User story:
-(1) As a user, I want to be able to test my knowledge about different cities in Europe.
+1. As a user, I want to be able to test my knowledge about different cities in Europe.
     Result:PASS, there are questions found relatded to different countries of Europe which will test the player's knowledge about Europe
-(2) As a user , I want to know my score.
+2. As a user , I want to know my score.
     Result:PASS, when you click on the next button the score appears depending upon the response
-(3) As a user, I want to know when I am on the last question.
+3. As a user, I want to know when I am on the last question.
     Result:PASS, when you reach the highest score and click on the next button a message indicaing thats almost the end of the game appears
-(4) As a user, I want to able to know if i lost or won the game.
+4. As a user, I want to able to know if i lost or won the game.
     Result:PASS, when you click on the Finish button,message concerning the winning and loosing appears on the screen
-(5) As a user, I want to know if the selected option is correct or not
+5. As a user, I want to know if the selected option is correct or not
     Result:PASS, when you click on the currrent option whether its correct/incorrect is displayed by true or false message
-(6) As a user, I would like to see if all the buttons are functional.
+6. As a user, I would like to see if all the buttons are functional.
     Resukt;PASS,the buttons of the website were tested locally and these worked properly.
 
 ### Local testing
