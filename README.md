@@ -100,7 +100,7 @@ The JS was checked via JSHint According to the assessment some functions are ava
 ## User story testing:
 ## User story:
 1. As a user, I want to be able to test my knowledge about different cities in Europe.
-    Result:PASS, there are questions found relatded to different countries of Europe which will test the player's knowledge about Europe
+    Result:PASS, there are questions found related to different countries of Europe which will test the player's knowledge about Europe
 2. As a user , I want to know my score.
     Result:PASS, when you click on the next button the score appears depending upon the response
 3. As a user, I want to know when I am on the last question.
