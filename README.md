@@ -114,7 +114,7 @@ The JS was checked via JSHint According to the assessment some functions are ava
     Resukt;PASS,the buttons of the website were tested locally and these worked properly.
 
 ### Local testing
-![image](https://user-images.githubusercontent.com/63474017/178942469-c787c98b-cf3e-48f2-9727-b2821d78eff0.png)
+![image](https://user-images.githubusercontent.com/63474017/182560936-e136035d-1a0c-45f8-abdf-28100edaec1f.png)
 
 
 ### Responsiveness
