@@ -77,9 +77,9 @@ At the end of the game user can click on the finish button and a message display
 
 ## Testing
 
-### Validators
+## Validators
 
-## HTML
+# HTML
 The HTML was checked by W3C HTML validator and it did not reported display any errors.
 You can see the result below:
 index.html verification
@@ -87,11 +87,11 @@ index.html verification
 QuozPage.html verification
 ![image](https://user-images.githubusercontent.com/63474017/178940995-c8b6aaf6-e672-47d2-bacb-c3c42a6ea49f.png)
 
-## CSS
+# CSS
 The CSS was checked by W3C Jigsaw validator it did not display any errors.
 
 ![image](https://user-images.githubusercontent.com/63474017/178941171-6c22f423-9d9a-45ff-a7d9-f1613187fc35.png)
-## JS
+# JS
 The JS was checked via JSHint According to the assessment some functions are available in ES6 version. It was the reason that I got some warnings in the assessment.
 ![image](https://user-images.githubusercontent.com/63474017/182561284-c97d6f74-d9e7-48bf-b74d-417ade3ebe02.png)
 
