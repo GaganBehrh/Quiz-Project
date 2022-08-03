@@ -2,7 +2,7 @@
 
 I have been living in Europe since quite long time time almost 10 years and i thought to create a quiz over this topic can be interesting.
 
-For link to this website click [Here]  https://gaganbehrh.github.io/Quiz-Project/
+For link to this website click [Here] https://gaganbehrh.github.io/Quiz-Project/
 
 Design has been focused to *Desktop, Laptop, Tablet first* and *Responsive* but this quiz is also working on mobile phones as you can see on the figure below.
 ![image](https://user-images.githubusercontent.com/63474017/178993475-ec7a7e99-dc7d-4fb5-946e-dc1a4a214c6c.png)
