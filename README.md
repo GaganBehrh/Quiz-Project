@@ -135,7 +135,6 @@ I managed the versions with the following process:
 ## Publish the quiz
 
 The steps of the publishing on the GitHub were as follow:
-    
-    1. **"Settings"** on the repository
-    2. **"Source"** of "GitHub Pages" selected *master for Branch* and saved it
+    1. "Settings" on the repository
+    2. "Source" of "GitHub Pages" selected *master for Branch* and saved it
     3. The website was published on GitHub Pages and the link was provided in the same section.
